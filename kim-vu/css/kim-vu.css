@@ -1,0 +1,11 @@
+.home {
+    background-image: url(../images/home-back.jpg);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
