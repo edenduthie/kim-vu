@@ -1,0 +1,67 @@
+<template name="main">
+<div class="{{backgroundClass}}">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<nav class="navbar navbar-default" role="navigation">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle"
+								data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span> <span
+									class="icon-bar"></span> <span class="icon-bar"></span> <span
+									class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="/"> <img
+								src="{{logoImageSrc}}" class="img-responsive"></img>
+							</a>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+					    <div class="row">
+					    <div class="col-md-4">
+						<ul class="nav navbar-nav">
+							<li class="{{isActive "brand"}}"><a href="/brand">BRAND</a></li>
+							<li class="{{isActive "print"}}"><a href="/print">PRINT</a></li>
+							<li><a href="#">PACK</a></li>
+							<li><a href="#">SIGN</a></li>
+							<li><a href="#">TEXTILES</a></li>
+							<li><a href="#">CRAFT</a></li>
+							<li class="gap"><a href="#">ABOUT</a></li>
+							<li><a href="#">CONTACT</a></li>
+						</ul>
+						</div>
+						<div class="col-md-8">
+						<ul class="nav navbar-nav">
+							<li class="{{isSubActive "spanishLearningCentre"}}"><a href="/spanishLearningCentre">SPANISH LEARNING CENTRE</a></li>
+							<li class="{{isSubActive "garlandThai"}}"><a href="#">GARLAND THAI</a></li>
+							<li class="{{isSubActive "libertad"}}"><a href="#">LIBERTAD</a></li>
+							<li class="{{isSubActive "openHouseVictoria"}}"><a href="#">OPEN HOUSE VICTORIA</a></li>
+							<li class="{{isSubActive "swagga"}}"><a href="#">SWAGGA</a></li>
+							<li class="{{isSubActive "artExhibition"}}"><a href="#">ART EXHIBITION</a></li>
+							<li class="{{isSubActive "pause4Pets"}}"><a href="/pause4Pets">PAUSE4PETS</a></li>
+							<li class="{{isSubActive "dmdImports"}}"><a href="#">DMD IMPORTS</a></li>
+							<li class="{{isSubActive "ecoBud"}}"><a href="#">ECOBUD</a></li>
+							<li class="{{isSubActive "kateWeir21"}}"><a href="#">KATE WEIR 21</a></li>
+							<li class="{{isSubActive "greenCrossAustralia"}}"><a href="#">GREEN CROSS AUSTRALIA</a></li>
+							<li class="{{isSubActive "easyFoam"}}"><a href="#">EASYFOAM</a></li>
+							<li class="{{isSubActive "bergsGourmetBurgers"}}"><a href="#">BERGS GOURMET BURGERS</a></li>
+							<li class="{{isSubActive "boxNBowls"}}"><a href="#">BOX 'N' BOWLS</a></li>
+							<li class="{{isSubActive "ladyBugBunting"}}"><a href="#">LADYBUG BUNTING</a></li>
+						</ul>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 folio-content">
+				{{renderPage}}
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /home -->
+</template>
