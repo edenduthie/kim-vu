@@ -1,5 +1,10 @@
 var sublinks = {
-    brand : ['pause4Pets','easyFoam','garlandThai']
+    brand : ['pause4Pets','easyFoam','garlandThai'],
+    print : ['spanishLearningCentre','pause4Pets','openHouse','artExhibition','easyFoam',
+             'kateWeir21','greenCrossAustralia','bergsGourmetBurgers','boxNBowls'],
+    pack : ['dmdImports','ecoBud'],
+    nfp : ['openHouse','artExhibition','greenCrossAustralia','endeavourFoundation'],
+    textiles : ['swagga','dmdImports']
 }
 
 Template.main.helpers({

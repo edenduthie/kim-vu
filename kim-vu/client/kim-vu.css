@@ -21,6 +21,10 @@ html, body {
 	border-color: transparent;
 }
 
+.folio-content {
+	margin-bottom: 50px;
+}
+
 .folio-content img {
 	margin-bottom: 20px;
 	margin-top: 20px;
