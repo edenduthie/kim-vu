@@ -3,6 +3,7 @@ Meteor.Router.add({
   '/print': 'print',
   '/spanishLearningCentre': 'spanishLearningCentre',
   '/pause4Pets' : 'pause4Pets',
+  '/easyFoam' : 'easyFoam',
   '*': 'home'
 });
 
