@@ -36,6 +36,8 @@ Template.main.getCurrentPage = function() {
 Template.main.isFolio = function() {
 	var currentPage = Template.main.getCurrentPage();
 	if( currentPage ) {
+		if( currentPage == 'contact' ) return false;
+		if( currentPage == 'about' ) return false;
 		return true;
 	}
 	return false;

@@ -5922,6 +5922,18 @@ hr {
   margin-top: 25px;
   margin-bottom: 20px;
 }
+.contact,
+.about,
+.about p {
+  color: #00afa9;
+}
+.about p {
+  font-size: 14px;
+}
+.contact a.pink,
+.about a.pink {
+  color: #f37571;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";

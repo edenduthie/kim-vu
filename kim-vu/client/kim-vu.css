@@ -33,3 +33,13 @@ html, body {
 .folio-content .row img {
 	margin-top: 5px;
 }
+
+.contact .col,
+.about .col  {
+	background-color: #fff;
+	padding: 30px;
+}
+
+.contact td {
+	padding-right: 20px;
+}
