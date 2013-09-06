@@ -52,3 +52,12 @@ Template.main.logoImageSrc = function() {
 	if( Template.main.isFolio() ) return 'images/logo-teal.png';
 	else return 'images/logo.png';
 }
+
+Template.main.rendered = function() {
+	$('.folio-content').magnificPopup({
+        delegate: 'a',
+		type: 'image',
+	    gallery:{enabled:true}
+    });
+
+}
