@@ -7,10 +7,19 @@
 }
 
 .navbar-nav > li > a {
-     padding-top : 1px;
-     padding-bottom: 1px;
+     padding-top : 0px;
+     padding-bottom: 0px;
      font-size: @font-size-small;
  }
+
+.home {
+    background-color: @brand-primary;
+    background-repeat: repeat-x;
+    height: 100%;
+    overflow: auto;
+    
+/* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#74d4d0), to(@brand-primary)); /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, @brand-primary, #74d4d0); /* Firefox 3.6+ */ background: -moz-linear-gradient(top, @brand-primary, #74d4d0); /* IE 10 */ background: -ms-linear-gradient(top, @brand-primary, #74d4d0); /* Opera 11.10+ */ background: -o-linear-gradient(top, @brand-primary, #74d4d0);
+}
 
 .home .nav li a {
 	color: #fff;
@@ -20,7 +29,7 @@
 .home .nav li a:focus,
 .home .nav li.active a {
     color: @brand-pink;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .folio .nav li a {
@@ -49,14 +58,18 @@ hr {
 .contact,
 .about,
 .about p {
-    color: @brand-primary;
- }
- 
- .about p {
-     font-size: @font-size-base;
+    color: #fff;
+    font-size: @font-size-small;
  }
  
 .contact a.pink,
 .about a.pink {
      color: @brand-pink;
+     font-weight: bold;
+ }
+ 
+ .contact a,
+ .about a {
+     color: #fff;
+     font-size: @font-size-small;
  }

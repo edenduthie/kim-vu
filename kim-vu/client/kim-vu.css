@@ -2,13 +2,6 @@ html, body {
 	height: 100%;
 }
 
-.home {
-    background-image: url(../images/home-back.jpg);
-    background-repeat: repeat-x;
-    height: 100%;
-    overflow: auto;
-}
-
 .folio {
     background-image: url(../images/background-white.jpg);
     background-repeat: repeat-x;
@@ -34,12 +27,23 @@ html, body {
 	margin-top: 5px;
 }
 
+/*
 .contact .col,
 .about .col  {
 	background-color: #fff;
 	padding: 30px;
 }
+*/
 
 .contact td {
 	padding-right: 20px;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.icon1 {
+    position: relative;
+    top: 300px;	
 }
