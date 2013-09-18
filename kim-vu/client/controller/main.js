@@ -55,7 +55,7 @@ Template.main.logoImageSrc = function() {
 
 Template.main.rendered = function() {
 	$('.folio-content').magnificPopup({
-        delegate: 'a',
+        delegate: 'a.popup',
 		type: 'image',
 	    gallery:{enabled:true}
     });

@@ -47,3 +47,7 @@ html, body {
     position: relative;
     top: 300px;	
 }
+
+.about a {
+	display: block;
+}

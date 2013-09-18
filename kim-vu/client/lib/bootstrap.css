@@ -5954,6 +5954,10 @@ hr {
   color: #fff;
   font-size: 12px;
 }
+.about a.small {
+  font-size: 10px;
+  margin-top: 10px;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
