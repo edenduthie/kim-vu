@@ -48,6 +48,32 @@ html, body {
     top: 300px;	
 }
 
+.icon2 {
+	display: none;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 400px;
+}
+
+.home .icon2 {
+	display: block;
+}
+
+.icon3 {
+	display: none;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	left: 500px;
+	bottom: 0;
+}
+
+.home .icon3 {
+	display: block;
+}
+
 .about a {
 	display: block;
 }
