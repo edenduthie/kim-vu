@@ -18,6 +18,7 @@ Meteor.Router.add({
   '/swagga' : 'swagga',
   '/dmdImports' : 'dmdImports',
   '/ecoBud' : 'ecoBud',
+  '/barn' : 'barn',
   '*': 'home'
 });
 
