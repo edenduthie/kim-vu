@@ -24,19 +24,19 @@ function update() {
 
 function redraw() { 
 	console.log('resizing');
-	canvas.width = 620; 
-	canvas.height = 465; 
+	canvas.width = 302.4; 
+	canvas.height = 227; 
 	var ctx = canvas.getContext("2d"); 
 	ctx.fillStyle = '#000000'; 
 	ctx.fillRect(0, 0, canvas.width, canvas.height);
 	if( frame >= 10 ) {
-		offset = 620*(10 - (frame-9));
+		offset = 302.4*(10 - (frame-9));
 	}
 	else {
-		offset = frame*620;
+		offset = frame*302.4;
 	}
 	console.log("offset: " + offset + " frame: " + frame);
 	if( imageReady ) {
-	    ctx.drawImage(img,offset,0,620,465,canvas.width/2 - 310, canvas.height/2 - 232.5, 620, 465);
+	    ctx.drawImage(img,offset,0,302.4,227,canvas.width/2 - 151.2, canvas.height/2 - 113.5, 302.4, 227);
 	}
 }

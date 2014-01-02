@@ -19,6 +19,7 @@ Meteor.Router.add({
   '/dmdImports' : 'dmdImports',
   '/ecoBud' : 'ecoBud',
   '/barn' : 'barn',
+  '/anewchapter' : 'anewchapter',
   '*': 'home'
 });
 

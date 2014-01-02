@@ -1,9 +1,11 @@
 var sublinks = {
     brand : ['pause4Pets','easyFoam','garlandThai'],
     print : ['spanishLearningCentre','pause4Pets','openHouse','artExhibition','easyFoam',
-             'kateWeir21','greenCrossAustralia','bergsGourmetBurgers','boxNBowls','barn'],
+             'kateWeir21','greenCrossAustralia','bergsGourmetBurgers','boxNBowls','barn',
+             'anewchapter'],
     pack : ['dmdImports','ecoBud'],
-    nfp : ['openHouse','artExhibition','greenCrossAustralia','endeavourFoundation'],
+    nfp : ['openHouse','artExhibition','greenCrossAustralia','endeavourFoundation',
+           'anewchapter'],
     textiles : ['swagga','dmdImports']
 }
 
