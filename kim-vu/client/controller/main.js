@@ -11,8 +11,9 @@ var sublinks = {
 
 Template.main.helpers({
 	isActive : function(key) {
-		var currentPage = Template.main.getCurrentPage();
+            var currentPage = Template.main.getCurrentPage();
 	    if( key === currentPage ) return 'active';
+            else if( currentPage.indexOf(key) == 0 ) return 'active';
 	    else return '';
 	},
 	isSubActive : function(key) {

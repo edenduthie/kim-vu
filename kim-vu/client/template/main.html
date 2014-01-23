@@ -32,12 +32,16 @@
 							<li class="{{isActive "pack"}}"><a href="/pack">pack</a></li>
 							<li class="{{isActive "nfp"}}"><a href="/nfp">nfp</a></li>
 							<li class="{{isActive "textiles"}}"><a href="/textiles">textiles</a></li>
+                                                        <li class="{{isActive "scrapbook"}}"><a href="/scrapbook">scrapbook</a></li>
 							<li class="gap {{isActive "about"}}"><a href="/about">about</a></li>
 							<li class="{{isActive "contact"}}"><a href="/contact">say hello</a></li>
 						</ul>
 						</div>
 						<div class="col-md-8">
 						<ul class="nav navbar-nav">
+                                                        {{#if isActive "scrapbook"}}
+                                                            <li class="{{isSubActive "scrapbook1"}}"><a href="/scrapbook1">invernio 2014</a></li>
+                                                        {{else}}
 							<li class="{{isSubActive "spanishLearningCentre"}}"><a href="/spanishLearningCentre">spanish learning centre</a></li>
 							<li class="{{isSubActive "garlandThai"}}"><a href="/garlandThai">garland thai</a></li>
 							<li class="{{isSubActive "openHouse"}}"><a href="/openHouse">open house mifc</a></li>
@@ -50,8 +54,9 @@
 							<li class="{{isSubActive "greenCrossAustralia"}}"><a href="/greenCrossAustralia">green cross australia</a></li>
 							<li class="{{isSubActive "easyFoam"}}"><a href="/easyFoam">easyfoam</a></li>
 							<li class="{{isSubActive "bergsGourmetBurgers"}}"><a href="/bergsGourmetBurgers">bergs gourmet burgers</a></li>
-						    <li class="{{isSubActive "barn"}}"><a href="/barn">barn wedding</a></li>
-						    <li class="{{isSubActive "anewchapter"}}"><a href="/anewchapter">a new chapter</a></li>
+						        <li class="{{isSubActive "barn"}}"><a href="/barn">barn wedding</a></li>
+						        <li class="{{isSubActive "anewchapter"}}"><a href="/anewchapter">a new chapter</a></li>
+                                                        {{/if}}
 						</ul>
 						</div>
 						</div>

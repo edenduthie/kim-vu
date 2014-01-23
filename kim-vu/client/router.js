@@ -20,6 +20,8 @@ Meteor.Router.add({
   '/ecoBud' : 'ecoBud',
   '/barn' : 'barn',
   '/anewchapter' : 'anewchapter',
+  '/scrapbook' : 'scrapbook',
+  '/scrapbook1' : 'scrapbook1',
   '*': 'home'
 });
 
