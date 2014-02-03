@@ -6,7 +6,8 @@ var sublinks = {
     pack : ['dmdImports','ecoBud'],
     nfp : ['openHouse','artExhibition','greenCrossAustralia','endeavourFoundation',
            'anewchapter'],
-    textiles : ['swagga','dmdImports']
+    textiles : ['swagga','dmdImports'],
+    industry : ['endeavourFoundation']
 }
 
 Template.main.helpers({

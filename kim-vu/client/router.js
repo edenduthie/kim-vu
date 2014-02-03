@@ -22,6 +22,8 @@ Meteor.Router.add({
   '/anewchapter' : 'anewchapter',
   '/scrapbook' : 'scrapbook',
   '/scrapbook1' : 'scrapbook1',
+  '/industry' : 'industry',
+  '/endeavourFoundation' : 'endeavourFoundation',
   '*': 'home'
 });
 
