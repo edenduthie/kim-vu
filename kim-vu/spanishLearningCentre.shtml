@@ -1,0 +1,8 @@
+<template name="spanishLearningCentre">
+<p>SPANISH LEARNING CENTRE</p>
+<p>Promotional Full Up Banner displayed at the 2013 Brisbane Spanish Film Festival</p>
+<a href="images/foliohr/spanishLearningCentre-1.jpg" class="popup"><img src="images/folio/spanishLearningCentre-1.png" class="img-responsive"></img></a>
+<p>2013 SPANISH FILM FESTIVAL AFTER PARTY, PALACE CINEMAS JAMES STREET, FORTITUDE VALLEY, BRISBANE</p>
+<a href="images/foliohr/spanishLearningCentre-2.JPG" class="popup"><img src="images/folio/spanishLearningCentre-2.png" class="img-responsive"></img></a>
+<a href="images/foliohr/spanishLearningCentre-3.JPG" class="popup"></a>
+</template>

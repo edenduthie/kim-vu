@@ -1,0 +1,10 @@
+<template name="barn">
+<p>NICK AND SUSAN - A BARN WEDDING</p>
+<p>INSPIRATION</p>
+<a href="images/foliohr/barn-1.jpg" class="popup"><img src="images/folio/barn-1.jpg" class="img-responsive"></img></a>
+<p>MOTIF</p>
+<a href="images/foliohr/barn-2.jpg" class="popup"><img src="images/folio/barn-2.jpg" class="img-responsive"></img></a>
+<a href="images/folio/barn-3.jpg" class="popup"><img src="images/folio/barn-3.jpg" class="img-responsive"></img></a>
+<p>POSTCARD</p>
+<a href="images/folio/barn-4.jpg" class="popup"><img src="images/folio/barn-4.jpg" class="img-responsive"></img></a>
+</template>

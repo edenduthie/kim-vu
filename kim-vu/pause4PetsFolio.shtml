@@ -1,0 +1,3 @@
+<!--#include virtual="header.shtml" -->
+<!--#include virtual="pause4Pets.shtml" -->
+<!--#include virtual="footer.shtml" -->

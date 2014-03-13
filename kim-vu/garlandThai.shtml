@@ -1,0 +1,9 @@
+<template name="garlandThai">
+<p>GARLAND THAI</p>
+<p>BRAND IDENTITY & SIGNAGE</p>
+<p>Actual size of signage 3.6m x 1.2m</p>
+<a href="images/foliohr/garlandThai-1.png" class="popup"><img src="images/folio/garlandThai-1.png" class="img-responsive"></img></a>
+<a href="images/foliohr/garlandThai-2.png" class="popup"><img src="images/folio/garlandThai-2.png" class="img-responsive"></img></a>
+<a href="images/foliohr/garlandThai-3.png" class="popup"><img src="images/folio/garlandThai-3.png" class="img-responsive"></img></a>
+<a href="images/foliohr/garlandThai-4.png" class="popup"><img src="images/folio/garlandThai-4.png" class="img-responsive"></img></a>
+</template>
