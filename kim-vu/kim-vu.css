@@ -80,3 +80,12 @@ a.navbar-brand {
     background-color: transparent !important;
     border: none !important;
 }
+
+.small-and-white {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.padded {
+    line-height: 1.42857;
+}
