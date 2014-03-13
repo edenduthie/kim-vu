@@ -27,14 +27,6 @@ html, body {
 	margin-top: 5px;
 }
 
-/*
-.contact .col,
-.about .col  {
-	background-color: #fff;
-	padding: 30px;
-}
-*/
-
 .contact td {
 	padding-right: 20px;
 }
@@ -76,4 +68,15 @@ html, body {
 
 .about a {
 	display: block;
+}
+
+a.navbar-brand {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.navbar {
+    background-color: transparent !important;
+    border: none !important;
 }
