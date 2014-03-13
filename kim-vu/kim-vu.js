@@ -4,10 +4,12 @@ var frame = 0;
 
 function loadAnimation () {
 	canvas = document.getElementById('animationCanvas');
-	img = new Image(); 
-	img.src = 'images/animation.jpg';
-	img.onload = loaded();
-	redraw();	
+    if( canvas ) {
+	    img = new Image(); 
+	    img.src = 'images/animation.jpg';
+	    img.onload = loaded();
+	    redraw();
+    }	
 }
 
 function loaded() { 
@@ -41,4 +43,9 @@ function redraw() {
 
 $(document).ready(function(){
     loadAnimation();
+	$('.folio-content').magnificPopup({
+        delegate: 'a.popup',
+		type: 'image',
+	    gallery:{enabled:true}
+    });
 })
