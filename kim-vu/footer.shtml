@@ -5,5 +5,6 @@
     	<!-- /home -->
     <script src="lib/jquery.js"></script>
     <script src="lib/bootstrap.js"></script>
+    <script src="lib/jquery.magnific-popup.js"></script>
     <script src="kim-vu.js"></script>
 </body>

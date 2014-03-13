@@ -1,4 +1,3 @@
-<template name="dmdImports">
 <p>DMD IMPORTS / BRISBANE</p>
 <p>Packaging for children's socks</p>
 <a href="images/foliohr/dmdImports-1.png" class="popup"><img src="images/folio/dmdImports-1.png" class="img-responsive"></img></a>
@@ -28,4 +27,4 @@
         <a href="images/foliohr/dmdImports-10.jpg" class="popup"><img src="images/folio/dmdImports-10.jpg" class="img-responsive"></img></a>
     </div>
 </div>
-</template>
+<hr/>

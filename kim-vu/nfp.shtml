@@ -1,0 +1,6 @@
+<!--#include virtual="header.shtml" -->
+<!--#include virtual="openHouse.shtml" -->
+<!--#include virtual="artExhibition.shtml" -->
+<!--#include virtual="greenCrossAustralia.shtml" -->
+<!--#include virtual="anewchapter.shtml" -->
+<!--#include virtual="footer.shtml" -->

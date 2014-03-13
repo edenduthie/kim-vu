@@ -1,4 +1,3 @@
-<template name="bergsGourmetBurgers">
 <p>BERGS GOURMET BURGERS / SINGAPORE STORE</p>
 <p>DL Take-away menu</p>
 <a href="images/foliohr/bergsGourmetBurgers-1.png" class="popup"><img src="images/folio/bergsGourmetBurgers-1.png" class="img-responsive"></img></a>
@@ -12,4 +11,4 @@
          <a href="images/foliohr/bergsGourmetBurgers-4.png" class="popup"><img src="images/folio/bergsGourmetBurgers-4.png" class="img-responsive"></img></a>
     </div>
 </div>
-</template>
+<hr/>

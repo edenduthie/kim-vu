@@ -1,4 +1,3 @@
-<template name="anewchapter">
 <p>A NEW CHAPTER</p>
 <p>
 <a href="https://s3-ap-southeast-2.amazonaws.com/kim-vu/anewchapter.pdf" class="pink" target="_blank">download pdf here</a>
@@ -17,4 +16,4 @@
 
 <p>BACK</p>
 <a href="images/folio/anewchapter-10.jpg" class="popup"><img src="images/folio/anewchapter-10.jpg" class="img-responsive"></img></a>
-</template>
+<hr/>

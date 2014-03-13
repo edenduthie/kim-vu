@@ -1,4 +1,3 @@
-<template name="easyFoam">
 <p>EASYFOAM BRAND IDENTITY</p>
 <p>Sketching concepts</p>
 <div class="row">
@@ -14,4 +13,4 @@
 <p>EASYFOAM</p>
 <p>BRAND IDENTITY</p>
 <a href="images/foliohr/easyFoam-4.png" class="popup"><img src="images/folio/easyFoam-4.png" class="img-responsive"></img></a>
-</template>
+<hr/>

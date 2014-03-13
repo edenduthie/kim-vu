@@ -1,4 +1,3 @@
-<template name="endeavourFoundation">
 <p>ENDEAVOUR FOUNDATION</p>
 <p>NEWSLETTER</p>
 <p><a href="https://s3-ap-southeast-2.amazonaws.com/kim-vu/13.163+500km_issue+3+Newsletter_HR.pdf" class="pink" target="_blank">issue 3 download pdf here</a></p>
@@ -15,4 +14,4 @@
 <a href="images/foliohr/endeavour-5.png" class="popup"><img src="images/folio/endeavour-5.png" class="img-responsive"></img></a>
 <p>KINGAROY KITCHEN XMAS 2013</p>
 <a href="images/foliohr/endeavour-6.png" class="popup"><img src="images/folio/endeavour-6.png" class="img-responsive"></img></a>
-</template>
+<hr/>

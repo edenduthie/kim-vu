@@ -1,4 +1,3 @@
-<template name="ecoBud">
 <p>ECOBUD - BEST WARE PURIFICATION AND WATER FILTERS</p>
 <p>Packaging for Gentoo water filter</p>
 <a href="images/foliohr/ecoBud-1.png" class="popup"><img src="images/folio/ecoBud-1.png" class="img-responsive"></img></a>
@@ -27,4 +26,4 @@
         <a href="images/folio/ecoBud-8.png" class="popup"><img src="images/folio/ecoBud-8.png" class="img-responsive"></img></a>
     </div>
 </div>
-</template>
+<hr/>

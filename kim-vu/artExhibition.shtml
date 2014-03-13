@@ -1,4 +1,3 @@
-<template name="artExhibition">
 <p>2013 ART CATALOGUE / MENTAL ILLNESS FELLOWSHIP QUEENSLAND</p>
 <p>25-page A4 are catalogue</p>
 <a href="images/foliohr/artExhibition-1.png" class="popup"><img src="images/folio/artExhibition-1.png" class="img-responsive"></img></a>
@@ -16,4 +15,4 @@
 <a href="images/foliohr/artExhibition-7.png" class="popup">
 <p>2013 ART EXHIBITION ENTRY TICKET</p>
 <a href="images/foliohr/artExhibition-8.png" class="popup"><img src="images/folio/artExhibition-7.png" class="img-responsive"></img></a>
-</template>
+<hr/>

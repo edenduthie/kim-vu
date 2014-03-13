@@ -1,0 +1,35 @@
+<head>
+<title>Graphic Design | kim-vu</title>
+<meta name="description" content="A showcase of my design work">
+<link rel="stylesheet" type="text/css" href="kim-vu.css">
+<link rel="stylesheet" type="text/css" href="lib/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="lib/magnific-popup.css">
+</head>
+<body>
+    <div class="folio">
+    <img class="icon2" src="images/icon2.png"></img>
+    <img class="icon3" src="images/icon3.png"></img>
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-4">
+    					<nav class="navbar navbar-default" role="navigation">
+    						<!-- Brand and toggle get grouped for better mobile display -->
+    						<div class="navbar-header">
+    							<button type="button" class="navbar-toggle"
+    								data-toggle="collapse" data-target=".navbar-ex1-collapse">
+    								<span class="sr-only">Toggle navigation</span> <span
+    									class="icon-bar"></span> <span class="icon-bar"></span> <span
+    									class="icon-bar"></span>
+    							</button>
+    							<a class="navbar-brand" href="index.html"> <img src="images/logo-teal.png" class="img-responsive"></img>
+    							</a>
+    						</div>
+    					</nav>
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col-md-4">
+    					<div class="collapse navbar-collapse navbar-ex1-collapse">
+    					    <div class="row">
+    					    <div class="col-md-4">
+    						<ul class="nav navbar-nav">

@@ -1,7 +1,6 @@
-<template name="openHouse">
 <p>OPEN HOUSE INVITATION / MENTAL ILLNESS FELLOWSHIP QUEENSLAND</p>
 <p>3-PAGE ACCORDIAN FOLD OUT / FRONT & BACK</p>
 <a href="images/foliohr/openHouse-1.jpg" class="popup"><img src="images/folio/openHouse-1.png" class="img-responsive"></img></a>
 <a href="images/foliohr/openHouse-2.jpg" class="popup"><img src="images/folio/openHouse-2.png" class="img-responsive"></img></a>
 <a href="images/folio/openHouse-3.png" class="popup"><img src="images/folio/openHouse-3.png" class="img-responsive"></img>
-</template>
+<hr/>
